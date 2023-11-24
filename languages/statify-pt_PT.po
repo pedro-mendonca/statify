@@ -1,0 +1,241 @@
+# Translation of Plugins - Statify - Development (trunk) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Statify - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Statify - Development (trunk)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/statify\n"
+"POT-Creation-Date: 2023-11-24T13:04:14+00:00\n"
+"PO-Revision-Date: 2023-11-24 13:23+0000\n"
+"Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#. Plugin Name of the plugin
+#: inc/class-statify-settings.php:437 inc/class-statify-settings.php:438
+msgid "Statify"
+msgstr "Statify"
+
+#. Plugin URI of the plugin
+#: views/widget-back.php:49
+msgid "https://statify.pluginkollektiv.org/"
+msgstr "https://statify.pluginkollektiv.org/"
+
+#. Description of the plugin
+msgid "Compact, easy-to-use and privacy-compliant stats plugin for WordPress."
+msgstr "Plugin de estatísticas para WordPress, compacto, fácil de utilizar e em conformidade com a proteção da privacidade."
+
+#. Author of the plugin
+msgid "pluginkollektiv"
+msgstr "pluginkollektiv"
+
+#. Author URI of the plugin
+msgid "https://pluginkollektiv.org/"
+msgstr "https://pluginkollektiv.org/"
+
+#: inc/class-statify-backend.php:42 inc/class-statify-settings.php:464
+#: views/widget-back.php:50
+msgid "Donate"
+msgstr "Fazer donativo"
+
+#: inc/class-statify-backend.php:43 inc/class-statify-settings.php:465
+#: views/widget-back.php:51
+msgid "https://wordpress.org/support/plugin/statify"
+msgstr "https://wordpress.org/support/plugin/statify"
+
+#: inc/class-statify-backend.php:43 inc/class-statify-settings.php:465
+#: views/widget-back.php:51
+msgid "Support"
+msgstr "Suporte"
+
+#: inc/class-statify-backend.php:76
+msgid "Settings"
+msgstr "Opções"
+
+#: inc/class-statify-settings.php:32
+msgid "Global settings"
+msgstr "Opções globais"
+
+#: inc/class-statify-settings.php:38
+msgid "Period of data saving"
+msgstr "Período dos dados guardados"
+
+#: inc/class-statify-settings.php:46
+msgid "Tracking method"
+msgstr "Método de rastreio"
+
+#: inc/class-statify-settings.php:56
+msgid "Dashboard Widget"
+msgstr "Widget do painel"
+
+#: inc/class-statify-settings.php:62 views/widget-back.php:30
+msgid "Period of data display in Dashboard"
+msgstr "Período a mostrar no painel"
+
+#: inc/class-statify-settings.php:70 views/widget-back.php:35
+msgid "Number of entries in top lists"
+msgstr "Número de registos nas listas de tops"
+
+#: inc/class-statify-settings.php:78
+msgid "Top lists only for today"
+msgstr "Tops apenas de hoje"
+
+#: inc/class-statify-settings.php:86 views/widget-back.php:43
+msgid "Show totals"
+msgstr "Mostrar totais"
+
+#: inc/class-statify-settings.php:94
+msgid "Which user role(s) should see the Statify dashboard widget?"
+msgstr "Que papéis de utilizador deverão ver o widget do Statify no painel?"
+
+#: inc/class-statify-settings.php:103
+msgid "Skip tracking for ..."
+msgstr "Ignorar rastreio para..."
+
+#: inc/class-statify-settings.php:109
+msgid "Disallowed referrers"
+msgstr "Referenciadores não permitidos"
+
+#: inc/class-statify-settings.php:117
+msgid "Logged in users"
+msgstr "Utilizadores com sessão iniciada"
+
+#: inc/class-statify-settings.php:133 inc/class-statify-settings.php:195
+#: views/widget-back.php:29
+msgid "days"
+msgstr "dias"
+
+#: inc/class-statify-settings.php:134 inc/class-statify-settings.php:196
+#: inc/class-statify-settings.php:208 inc/class-statify-settings.php:220
+#: inc/class-statify-settings.php:232 inc/class-statify-settings.php:314
+#: inc/class-statify-settings.php:331
+msgid "Default"
+msgstr "Por omissão"
+
+#: inc/class-statify-settings.php:146
+msgid "Default tracking"
+msgstr "Rastreio por omissão"
+
+#: inc/class-statify-settings.php:148
+msgid "JavaScript based tracking with nonce check"
+msgstr "Rastreio com base em JavaScript com verificação de nonce"
+
+#: inc/class-statify-settings.php:150
+msgid "JavaScript based tracking without nonce check"
+msgstr "Rastreio com base em JavaScript sem verificação de nonce"
+
+#: inc/class-statify-settings.php:153
+msgid "JavaScript based tracking is strongly recommended if caching or AMP is in use."
+msgstr "O rastreio com base em JavaScript é altamente recomendado se utilizar cache ou AMP."
+
+#: inc/class-statify-settings.php:154
+msgid "Disable the nonce check if the caching time is longer than the nonce time or you miss views due to 403 Forbidden errors."
+msgstr "Desactive a verificação de nonce se o tempo de cache for superior ao tempo de nonce, ou se perder visualizações devido a erros 403 Proibido."
+
+#: inc/class-statify-settings.php:182
+msgid "The following options affect the admin dashboard widget."
+msgstr "As opções abaixo são referentes ao widget do painel de administração."
+
+#: inc/class-statify-settings.php:220 inc/class-statify-settings.php:232
+#: inc/class-statify-settings.php:314
+msgid "No"
+msgstr "Não"
+
+#: inc/class-statify-settings.php:301
+msgid "The following options define cases in which a view will <strong>not</strong> be tracked."
+msgstr "As opções abaixo definem os casos em que as visualizações <strong>não</strong> serão rastreadas."
+
+#: inc/class-statify-settings.php:315
+msgid "Enabling this option excludes any views with referrers listed in the list of \"Disallowed Comment Keys\" field in the \"Discussion\" settings."
+msgstr "Ao activar desta opção exclui quaisquer visualizações com referenciadores incluídos na lista do campo \"Termos não permitidos nos comentários\" nas opções de \"Discussão\"."
+
+#: inc/class-statify-settings.php:327
+msgid "Track all users"
+msgstr "Rastrear todos os utilizadores"
+
+#: inc/class-statify-settings.php:328 inc/class-statify-settings.php:331
+msgid "Skip all users"
+msgstr "Ignorar todos os utilizadores"
+
+#: inc/class-statify-settings.php:329
+msgid "Skip administrators"
+msgstr "Ignorar administradores"
+
+#: inc/class-statify-settings.php:332
+msgid "This option specified whether logged-in users and/or administrators should be excluded from tracking."
+msgstr "Esta opção especifica se os utilizadores com sessão iniciada e/ou os administradores deverão ser excluídos do rastreio."
+
+#: inc/class-statify-settings.php:454
+msgid "Statify Settings"
+msgstr "Opções do Statify"
+
+#: inc/class-statify-settings.php:463
+msgid "https://wordpress.org/plugins/statify/"
+msgstr "https://pt.wordpress.org/plugins/statify/"
+
+#: inc/class-statify-settings.php:463 views/widget-back.php:49
+msgid "Documentation"
+msgstr "Documentação"
+
+#: views/widget-back.php:16
+msgid "Open full settings page"
+msgstr "Abrir página com todas as opções"
+
+#: views/widget-back.php:18
+msgid "All Settings"
+msgstr "Todas as opções"
+
+#: views/widget-back.php:24
+msgid "Widget Settings"
+msgstr "Opções do widget"
+
+#: views/widget-back.php:39
+msgid "Entries in top lists only for today"
+msgstr "Registos nos tops apenas de hoje"
+
+#: views/widget-front.php:18
+msgid "loading"
+msgstr "a carregar"
+
+#: views/widget-front.php:24
+msgid "Top referrers"
+msgstr "Top de referenciadores"
+
+#: views/widget-front.php:37
+msgid "Top targets"
+msgstr "Top de destinos"
+
+#: views/widget-front.php:49
+msgid "Totals"
+msgstr "Totais"
+
+#: views/widget-front.php:58
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: js/dashboard.js:57
+msgid "Error loading data."
+msgstr "Erro ao carregar dados."
+
+#: js/dashboard.js:76
+msgid "No data available."
+msgstr "Sem dados disponíveis."
+
+#. translators: %s: Number of page views.
+#: js/dashboard.js:143
+msgid "%s Page view"
+msgid_plural "%s Page views"
+msgstr[0] "%s visualização de página"
+msgstr[1] "%s visualizações de páginas"
+
+#: js/dashboard.js:209
+msgid "today"
+msgstr "hoje"
+
+#: js/dashboard.js:222
+msgid "since"
+msgstr "desde"
