@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - Statify - Development (trunk)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/statify\n"
-"POT-Creation-Date: 2023-11-24T13:04:14+00:00\n"
-"PO-Revision-Date: 2023-11-24 13:23+0000\n"
+"POT-Creation-Date: 2023-11-24T13:30:04+00:00\n"
+"PO-Revision-Date: 2023-11-24 13:30+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -236,6 +236,10 @@ msgstr[1] "%s visualizações de páginas"
 msgid "today"
 msgstr "hoje"
 
-#: js/dashboard.js:222
-msgid "since"
-msgstr "desde"
+#. translators: %s: Date.
+#: js/dashboard.js:224
+msgid "since %s"
+msgstr "desde %s"
+
+#~ msgid "since"
+#~ msgstr "desde"
