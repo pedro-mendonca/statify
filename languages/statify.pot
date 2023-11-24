@@ -1,0 +1,254 @@
+# Copyright (C) 2023 pluginkollektiv
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Statify 1.9.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/statify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-24T13:04:14+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: statify\n"
+
+#. Plugin Name of the plugin
+#: inc/class-statify-settings.php:437
+#: inc/class-statify-settings.php:438
+msgid "Statify"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: views/widget-back.php:49
+msgid "https://statify.pluginkollektiv.org/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Compact, easy-to-use and privacy-compliant stats plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin
+msgid "pluginkollektiv"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginkollektiv.org/"
+msgstr ""
+
+#: inc/class-statify-backend.php:42
+#: inc/class-statify-settings.php:464
+#: views/widget-back.php:50
+msgid "Donate"
+msgstr ""
+
+#: inc/class-statify-backend.php:43
+#: inc/class-statify-settings.php:465
+#: views/widget-back.php:51
+msgid "https://wordpress.org/support/plugin/statify"
+msgstr ""
+
+#: inc/class-statify-backend.php:43
+#: inc/class-statify-settings.php:465
+#: views/widget-back.php:51
+msgid "Support"
+msgstr ""
+
+#: inc/class-statify-backend.php:76
+msgid "Settings"
+msgstr ""
+
+#: inc/class-statify-settings.php:32
+msgid "Global settings"
+msgstr ""
+
+#: inc/class-statify-settings.php:38
+msgid "Period of data saving"
+msgstr ""
+
+#: inc/class-statify-settings.php:46
+msgid "Tracking method"
+msgstr ""
+
+#: inc/class-statify-settings.php:56
+msgid "Dashboard Widget"
+msgstr ""
+
+#: inc/class-statify-settings.php:62
+#: views/widget-back.php:30
+msgid "Period of data display in Dashboard"
+msgstr ""
+
+#: inc/class-statify-settings.php:70
+#: views/widget-back.php:35
+msgid "Number of entries in top lists"
+msgstr ""
+
+#: inc/class-statify-settings.php:78
+msgid "Top lists only for today"
+msgstr ""
+
+#: inc/class-statify-settings.php:86
+#: views/widget-back.php:43
+msgid "Show totals"
+msgstr ""
+
+#: inc/class-statify-settings.php:94
+msgid "Which user role(s) should see the Statify dashboard widget?"
+msgstr ""
+
+#: inc/class-statify-settings.php:103
+msgid "Skip tracking for ..."
+msgstr ""
+
+#: inc/class-statify-settings.php:109
+msgid "Disallowed referrers"
+msgstr ""
+
+#: inc/class-statify-settings.php:117
+msgid "Logged in users"
+msgstr ""
+
+#: inc/class-statify-settings.php:133
+#: inc/class-statify-settings.php:195
+#: views/widget-back.php:29
+msgid "days"
+msgstr ""
+
+#: inc/class-statify-settings.php:134
+#: inc/class-statify-settings.php:196
+#: inc/class-statify-settings.php:208
+#: inc/class-statify-settings.php:220
+#: inc/class-statify-settings.php:232
+#: inc/class-statify-settings.php:314
+#: inc/class-statify-settings.php:331
+msgid "Default"
+msgstr ""
+
+#: inc/class-statify-settings.php:146
+msgid "Default tracking"
+msgstr ""
+
+#: inc/class-statify-settings.php:148
+msgid "JavaScript based tracking with nonce check"
+msgstr ""
+
+#: inc/class-statify-settings.php:150
+msgid "JavaScript based tracking without nonce check"
+msgstr ""
+
+#: inc/class-statify-settings.php:153
+msgid "JavaScript based tracking is strongly recommended if caching or AMP is in use."
+msgstr ""
+
+#: inc/class-statify-settings.php:154
+msgid "Disable the nonce check if the caching time is longer than the nonce time or you miss views due to 403 Forbidden errors."
+msgstr ""
+
+#: inc/class-statify-settings.php:182
+msgid "The following options affect the admin dashboard widget."
+msgstr ""
+
+#: inc/class-statify-settings.php:220
+#: inc/class-statify-settings.php:232
+#: inc/class-statify-settings.php:314
+msgid "No"
+msgstr ""
+
+#: inc/class-statify-settings.php:301
+msgid "The following options define cases in which a view will <strong>not</strong> be tracked."
+msgstr ""
+
+#: inc/class-statify-settings.php:315
+msgid "Enabling this option excludes any views with referrers listed in the list of \"Disallowed Comment Keys\" field in the \"Discussion\" settings."
+msgstr ""
+
+#: inc/class-statify-settings.php:327
+msgid "Track all users"
+msgstr ""
+
+#: inc/class-statify-settings.php:328
+#: inc/class-statify-settings.php:331
+msgid "Skip all users"
+msgstr ""
+
+#: inc/class-statify-settings.php:329
+msgid "Skip administrators"
+msgstr ""
+
+#: inc/class-statify-settings.php:332
+msgid "This option specified whether logged-in users and/or administrators should be excluded from tracking."
+msgstr ""
+
+#: inc/class-statify-settings.php:454
+msgid "Statify Settings"
+msgstr ""
+
+#: inc/class-statify-settings.php:463
+msgid "https://wordpress.org/plugins/statify/"
+msgstr ""
+
+#: inc/class-statify-settings.php:463
+#: views/widget-back.php:49
+msgid "Documentation"
+msgstr ""
+
+#: views/widget-back.php:16
+msgid "Open full settings page"
+msgstr ""
+
+#: views/widget-back.php:18
+msgid "All Settings"
+msgstr ""
+
+#: views/widget-back.php:24
+msgid "Widget Settings"
+msgstr ""
+
+#: views/widget-back.php:39
+msgid "Entries in top lists only for today"
+msgstr ""
+
+#: views/widget-front.php:18
+msgid "loading"
+msgstr ""
+
+#: views/widget-front.php:24
+msgid "Top referrers"
+msgstr ""
+
+#: views/widget-front.php:37
+msgid "Top targets"
+msgstr ""
+
+#: views/widget-front.php:49
+msgid "Totals"
+msgstr ""
+
+#: views/widget-front.php:58
+msgid "Refresh"
+msgstr ""
+
+#: js/dashboard.js:57
+msgid "Error loading data."
+msgstr ""
+
+#: js/dashboard.js:76
+msgid "No data available."
+msgstr ""
+
+#. translators: %s: Number of page views.
+#: js/dashboard.js:143
+msgid "%s Page view"
+msgid_plural "%s Page views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/dashboard.js:209
+msgid "today"
+msgstr ""
+
+#: js/dashboard.js:222
+msgid "since"
+msgstr ""
